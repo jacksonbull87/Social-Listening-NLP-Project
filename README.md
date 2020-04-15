@@ -45,4 +45,4 @@
 ## Modeling/Topic Results
 
 
-![](pyvisual.html)
+http://localhost:8888/view/pyvisual.html
