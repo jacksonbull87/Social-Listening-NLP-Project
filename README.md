@@ -43,8 +43,18 @@
 
 
 ## Modeling/Topic Results
-
+    I ran my processed data through a Gensim LDA model with 4 topics as one of my parameters and a minimum term frequency of 50. 
+    You can click on the link below
+    for an interactive visualization of the topic distribution for each cluster.
 
 [INTERACTIVE VISUALIZATION](http://localhost:8888/view/pyvisual.html)
 
+
+Topic 1: Papa Mochi aka James Corden/Youtube
+
+Topic 2: iHeart Living Room Concert for America/Coronavirus
+
+Topic 3: Album/Quarantine
+
+Topic 4: BillieCoin, Saving The Planet
 
