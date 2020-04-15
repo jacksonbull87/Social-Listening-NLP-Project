@@ -30,7 +30,7 @@
 
 ## EDA
 
-![](/visualizations/wordcloud_popular tweets.png)
+![](/visualizations/wordcloud_popular_tweets.png)
 
     Looking at the most common words for tweets with over 50 retweets, one can infer that proper nouns
     such as names, events, special guest appearances create the most buzz.
