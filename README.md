@@ -45,4 +45,5 @@
 ## Modeling/Topic Results
 
 
-http://localhost:8888/view/pyvisual.html
+[![IMAGE ALT TEXT HERE](http://localhost:8888/view/pyvisual.html]
+
