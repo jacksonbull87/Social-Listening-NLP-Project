@@ -45,6 +45,6 @@
 ## Modeling/Topic Results
 
 
-[](http://localhost:8888/view/pyvisual.html)
+![](http://localhost:8888/view/pyvisual.html)
 
 
