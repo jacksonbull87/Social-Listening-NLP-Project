@@ -18,7 +18,7 @@
 
 
 ## Data Preprocessing
-    Before analyszing the documents, I needed to clean the text so that 
+    Before analyzing the documents, I needed to clean the text so that 
     I can tokenize each term into meaningful words. I created a preprocessing function that 
     eliminated URL links, non-alpha characters, words less than 3 letters, and English stopwords provided by NLTK.
     
