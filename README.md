@@ -1,7 +1,11 @@
 # Social-Listening-NLP-Project
 
 ## Project Goals
-    -Social media is a vast ocean of content. Trying to catch anything useful or meaningful from it can be a daunting task, especially if you're an a creative professional who just wants to create--sifting through thousands and even millions of posts can be a tedious task and a major buzzkill when trying to be creative. The goal of this project was to use NLP to help analyize online conversations in order to cluster audiences based on popular topics.
+    -Social media is a vast ocean of content. Trying to catch anything useful or meaningful from it can be a daunting task, 
+    especially if you're an a creative professional who just wants to create--sifting through thousands and 
+    even millions of posts can be a tedious task and a major buzzkill when trying to be creative. 
+    The goal of this project was to use NLP to help analyize online conversations in order to cluster audiences 
+    based on popular topics.
 
 
 ## Data Collection
