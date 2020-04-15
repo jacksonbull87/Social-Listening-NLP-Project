@@ -36,7 +36,7 @@
     such as names, events, special guest appearances create the most buzz.
 
 
-![text](/visualizations/top_bigrams-popular_tweets.png)
+![](/visualizations/top_bigrams-popular_tweets.png)
 
     Another visual indicating bigrams are essential to extracting key terms/topics from my subject,
     I will use bigrams in my final LDA model
@@ -45,6 +45,6 @@
 ## Modeling/Topic Results
 
 
-[TEXT](http://localhost:8888/view/pyvisual.html)
+[](http://localhost:8888/view/pyvisual.html)
 
 
