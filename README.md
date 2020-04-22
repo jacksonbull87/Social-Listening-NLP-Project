@@ -58,3 +58,10 @@ Topic 3: Album/Quarantine
 
 Topic 4: BillieCoin, Saving The Planet
 
+## Future Improvements
+    -Additional Insights and Features
+        -Artists Most Mentioned With: What other artists do I share the most fans with?
+    -Flexible Search Capabilities
+        -Adjust Date Range for Return Data
+        -Include Stopwords for More Defined Topics/CLusters
+
