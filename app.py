@@ -130,6 +130,7 @@ def create_topics(processed_data, num_of_topics):
 
 #Project Title
 st.title("Social Listening For Artists")
+st.header("Find Out What Your Audience Is Talking About")
 
 #text input 
 keyword = st.text_input("", "Type Here")
