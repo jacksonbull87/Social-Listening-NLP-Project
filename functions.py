@@ -1,33 +1,28 @@
-import twint
-import nest_asyncio
-nest_asyncio.apply()
-import numpy as np
-import nltk
-from nltk.corpus import stopwords
-import re
-from nltk.stem import WordNetLemmatizer
-from string import punctuation
-from nltk.tokenize import sent_tokenize, word_tokenize
-from sklearn.feature_extraction.text import CountVectorize
-import gensim
-import gensim.corpora as corpora
-import pyLDAvis.gensim
-pyLDAvis.enable_notebook()
+
 
 #get the tweet data
-
-def get_twitter_data(keyword = None):
+def get_tweets_by_keyword(keyword, since_date):
     c = twint.Config()
     c.Search = keyword
     c.Lang = 'en'
-    c.Pandas_clean = True
-    c.Since = '2020-04-12'
+    c.Since = since_date
+    c.Format = "Tweet ID: {id} | Date: {date} | Username: {username} | Tweet: {tweet} | #Replies: {replies} | #Retweets: {retweets} | #Likes: {likes}"
     c.Store_csv = True
-    c.Output = 'test.csv'
+    c.Output = 'keywordtwitterdata.csv'
     c.Hide_output = True
     twint.run.Search(c)
-    
-    return pd.read_csv('test.csv')
+
+#function take in 3 inputs: username, number of tweets, and since date as inputs and saves as a csv file
+def get_tweets_by_user(username, limit, since_date):
+    c = twint.Config()
+    c.Username = username
+    c.Limit = limit
+    c.Since = since_date
+    c.Format = "Tweet ID: {id} | Date: {date} | Username: {username} | Tweet: {tweet} | #Replies: {replies} | #Retweets: {retweets} | #Likes: {likes}"
+    c.Store_csv = True
+    c.Hide_output = True
+    c.Output = 'usertweetdata.csv'
+    twint.run.Search(c) 
 
 #clean and preprocess text
 def text_preprocessing(dataframe, keyword):
