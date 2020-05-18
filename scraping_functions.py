@@ -14,6 +14,7 @@ def get_tweets_by_keyword(keyword, since_date):
 
 #function take in 3 inputs: username, number of tweets, and since date as inputs and saves as a csv file
 def get_tweets_by_user(username, limit, since_date):
+    import twint
     c = twint.Config()
     c.Username = username
     c.Limit = limit

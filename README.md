@@ -42,8 +42,9 @@
     I will use bigrams in my final LDA model
 
 
-## Modeling/Topic Results
-    I ran my processed data through a Gensim LDA model with 4 topics as one of my parameters and a minimum term frequency of 50. 
+## Modeling/Topic Results (MVP)
+    I ran my processed data through a Gensim LDA model with 4 topics as one of my parameters 
+    and a minimum term frequency of 50. 
     You can click on the link below
     for an interactive visualization of the topic distribution for each cluster.
 
@@ -58,8 +59,13 @@ Topic 3: Album/Quarantine
 
 Topic 4: BillieCoin, Saving The Planet
 
-## Future Improvements
-    -Additional Insights and Features
+## Short-Term Improvements
+    -Revise Data Scraper function using Selenium
+    -Create a data pipeline (collection, preprocessing, cluster output)
+    -Development frontend that integrates the pipeline
+    
+## Long-Term Improvements
+    -Additional Insights and Features for Frontend Development
         -Artists Most Mentioned With: What other artists do I share the most fans with?
     -Flexible Search Capabilities
         -Adjust Date Range for Return Data
