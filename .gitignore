@@ -134,3 +134,4 @@ dmypy.json
 
 #credentials
 tweep_config.py
+twitter_config.py
