@@ -6,7 +6,7 @@ from twitter_config import credentials
 
 #define variables for username and password
 username = credentials['username']
-password = credentials['password']
+password = credentials['password']    
 
 #set path for chromedriver extension
 chrome_path = which("chromedriver")
